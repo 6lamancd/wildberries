@@ -1,0 +1,112 @@
+.text-d {
+  color: #a1998e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header__wrapper {
+  background: url(./images/shopping-day-2800x226.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+}
+
+.header__top {
+  display: flex;
+  padding-bottom: 15px;
+  padding-top: 7px;
+  padding-left: 100px;
+}
+
+.header__links {
+  display: flex;
+  gap: 20px;
+}
+
+.header__controls {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: flex-end;
+  width: 50%;
+  gap: 20px;
+  padding-right: 100px;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.ul__li {
+  display: flex;
+}
+
+.header__inner a {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+}
+
+.three__line {
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  left: 0;
+  margin-bottom: 16px;
+  margin-right: 16px;
+  min-width: 60px;
+  position: relative;
+  top: 0;
+  border-radius: 16px;
+  border: none;
+}
+
+.search__flex {
+  display: flex;
+}
+
+input {
+  border-radius: 19px;
+  font-size: 30px;
+  height: 60px;
+  letter-spacing: -0.3px;
+  padding: 0 30px 4px 61px;
+  width: 100%;
+  border: none;
+}
+
+.img__shopping {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 91%;
+  padding-top: 35px;
+  border-radius: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.header__wrapper {
+  width: 95%;
+  height: 120px;
+  border-radius: 0 0 20px 20px;
+}/*# sourceMappingURL=style.css.map */
